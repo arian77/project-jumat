@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Network.Inc</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  
+</head>
+
+<body>
+  <button class="button"><b>Home</b></button>
+  <a class="button" href="#About"><b>About Us</b></a>
+  <a class="button" href="#Profile"><b>Profile</b></a>
+  <a class="button" href="#Event"><b>Event</b></a>
+
+  <div class="parallax"></div>
+  <div style="height:600px;background-color:white;font-size:20px">
+    <div id="About" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+      <img src="programmer.png" style="float: left; margin-right:40px" </img>
+      <h3 style="text-align:center; font-size:70px; font-family: 'Anton', sans-serif">Why Us?</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <p>Network.Inc</p>
+    </div>
+  </div>
+
+  <div class="parallax1"></div>
+  <div style="height:600px;background-color:white;font-size:20px">
+    <div id="Profile" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+      <img src="girls.png" style="float: right; margin-right:40px; width:20%; height:30%;" </img>
+      <h3 style="text-align:center; font-size:70px; font-family: 'Anton', sans-serif">Profile</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Network.Inc</p>
+    </div>
+  </div>
+
+
+  <div class="parallax3"></div>
+  <div style="height:600px;background-color:white;font-size:20px">
+    <div id="Event" style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center;">
+      <h3 style="text-align:center; font-size:70px; font-family: 'Anton', sans-serif">Event</h3>
+      <div class="container">
+        <h2>Register Here</h2>
+        <form action="">
+          <div class="form-group">
+            <input type="name" class="form-control" id="name" placeholder="Full name" name="name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+          </div>
+          <div class="form-group">
+            <input type="phone" class="form-control" id="phone" placeholder="Enter Phone Number" name="phone">
+          </div>
+          <button id="frm1" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">SUCCESS!</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Thanks To Register On This Events</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <footer style="height:200px;background-color:black;font-size:20px; text-align: center; color: white; padding:50px 80px;text-align: center;">Copyright Project 2017
+    <p>Get a website that looks amazing and actually works.</p>
+  </footer>
+  <script>
+    function myFunction() {
+      document.getElementById("frm1").reset();
+    }
+  </script>
+
+</body>
+
+</html>
